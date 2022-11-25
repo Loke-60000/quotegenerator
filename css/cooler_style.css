@@ -1,13 +1,93 @@
-body {
-    background-image: url(/img/bg_pkmn.gif);
-    background-size: 100%;
-    background-position: 0% 32%;
-    
-}
-
 .logo {
     z-index: 1;
     position: absolute;
     height: 15%;
-    top: 6%;
+    top: 3%;
+}
+
+* {
+    --main-bg-color01: #0a0066;
+    --main-bg-color02: #ffc61e;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/bg_pkmn.gif);
+    background-size: 100%;
+    background-position: 0% 32%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.letter {
+    background-color: white;
+    position: fixed;
+    width: 55%;
+    height: 55%;
+    border: dashed 8px;
+    border-color: var(--main-bg-color01);
+    top: 15%;
+    
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.text_quote {
+    color: var(--main-bg-color01);
+    position: absolute;
+    margin-top: 38%;
+    max-width: 70%;
+    font-size: 150%;
+    font-weight: 800;
+}
+.author_quote {
+    top: 45%;
+    position: absolute;
+    margin-top: 15%;
+    color: var(--main-bg-color01);
+    font-style: italic;
+    font-size: 120%;
+    font-weight: 400;
+}
+.quote button {
+    position: fixed;
+    top: 80%;
+    background-color: var(--main-bg-color01);
+    color: var(--main-bg-color02);
+    border-width: 0ch;
+    padding: 1.5%;
+    width: 18%;
+    font-size: 120%;
+    border-radius: 10px;   
+}
+
+
+
+.citation {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.nom {
+    text-align: center;
+    padding-top: 15%;  
+}
+
+.coolbutton {
+    color: #0a0066;
+    border-color: #0a0066;
+    border-width: 5px;
+    background-color: #ffc61e;
+    border-radius: 10px;
+    font-weight: 1000;
+    position: absolute;
+    left: 2%;
+    top: 2%;
 }

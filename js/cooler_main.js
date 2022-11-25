@@ -34,3 +34,14 @@ function get_quote_from_the_internet() {
   
   window.addEventListener("load", get_quote_from_the_internet);
   quote.addEventListener("click", next_quote);
+
+
+
+const audio = new Audio("img/S3K_63.WAV");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
