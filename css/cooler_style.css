@@ -1,0 +1,13 @@
+body {
+    background-image: url(/img/bg_pkmn.gif);
+    background-size: 100%;
+    background-position: 0% 32%;
+    
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    height: 15%;
+    top: 6%;
+}
