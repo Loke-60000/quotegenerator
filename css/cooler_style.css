@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/img/bg_pkmn.gif);
+    background-image: url(img/bg_pkmn.gif);
     background-size: 100%;
     background-position: 0% 32%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
